@@ -1,3 +1,7 @@
+Changes in version 4.7a (January 2018)
+o Dummy part bookmark for back matter in
+  ClassicThesis.tex #161
+
 Changes in version 4.6 (June 2018)
 o Integration of arsclassica
   (with permission from Lorenzo Pantieri)
