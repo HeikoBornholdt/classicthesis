@@ -1,3 +1,21 @@
+Changes in version 4.7b (September 2019)
+o Removed remreset package from
+  classicthesis.sty (now obsolete as its
+  functionality has been incorporated into
+  the LaTeX format) #172
+o Moved the "linedheaders" option to a
+  separate style (classicthesis.sty,
+  classicthesis-linedheaders.sty) #160
+o Changed \settowidth{\newchnumberwidth}{0}
+  instead of {.} in classicthesis.sty
+  (thanks to Rueyshi Jang) #163
+o Loading cleveref and removed autorefnames
+  (in classicthesis-config.tex) for getting
+  labels right (thanks to kluth and Enrico
+  Gregorio) #128
+o Minor fixes in example Bibliography.bib
+o Fixed documentation (linedheaders, parts)
+
 Changes in version 4.7a (January 2019)
 o Dummy part bookmark for back matter in
   ClassicThesis.tex #161
@@ -6,7 +24,7 @@ o Moved hyperref's hyperfootnotes=false
   classicthesis-config.tex #169
 o Changed \cftchapfont to
   \spacedlowsmallcaps #168 (thanks to
-  Anonymous) 
+  Anonymous)
 
 Changes in version 4.6 (June 2018)
 o Integration of arsclassica
