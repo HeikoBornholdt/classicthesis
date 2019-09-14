@@ -330,6 +330,13 @@
       \DeclareRobustCommand{\spacedlowsmallcaps}[1]{{\addfontfeatures{LetterSpace=14.0}\ct@caps\MakeTextLowercase{#1}}}% WordSpace=1.8
       }{\relax}
 
+      \ifthenelse{\boolean{pdf}\OR\boolean{xetex}\OR\boolean{luatex}}% ever used? only dvi engines remain
+      {\relax}{%
+        \PackageWarningNoLine{classicthesis}{Plain LaTeX / DVI engines no longer supported. spacedlowsmallcaps and spacedallcaps will not work. See the Wiki for help.}%
+        \DeclareRobustCommand{\spacedlowsmallcaps}[1]{#1}%
+        \DeclareRobustCommand{\spacedallcaps}[1]{#1}%
+      }
+
 % ********************************************************************
 % headlines
 % ********************************************************************

@@ -1,4 +1,6 @@
 Changes in version 4.7b (September 2019)
+o Warning if used with plain LaTeX
+  (classicthesis.sty) #174
 o Removed remreset package from
   classicthesis.sty (now obsolete as its
   functionality has been incorporated into
@@ -15,6 +17,7 @@ o Loading cleveref and removed autorefnames
   Gregorio) #128
 o Minor fixes in example Bibliography.bib
 o Fixed documentation (linedheaders, parts)
+o Changed address for the postcards
 
 Changes in version 4.7a (January 2019)
 o Dummy part bookmark for back matter in
