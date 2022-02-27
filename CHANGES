@@ -1,4 +1,4 @@
-Changes in version 4.7b (December 2019)
+Changes in version 4.7b (February 2022)
 o Warning if used with plain LaTeX
   (classicthesis.sty) #174
 o Removed remreset package from
@@ -20,6 +20,12 @@ o Fixed documentation (linedheaders, parts)
 o Changed address for the postcards
 o Introduced new "plain vanilla" style
   (classicthesis-plain.sty)
+o Clarified some license issues 
+  (Chapter01.tex), namely that PDFs produced 
+	with latex and classicthesis shall not be 
+	considered derivative works of 
+	classicthesis in the sense of the GPL. 
+	(thanks to Eike Fokken) #123
 
 Changes in version 4.7a (January 2019)
 o Dummy part bookmark for back matter in

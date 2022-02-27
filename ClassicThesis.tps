@@ -10,14 +10,14 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=539
+NormalPos.top=32
+NormalPos.right=2556
+NormalPos.bottom=948
 Class=LaTeXView
 Document=Chapters\Chapter02.tex
 
 [Frame0_View0,0]
-TopLine=21
+TopLine=6
 Cursor=2195
 
 [Frame1]
@@ -28,15 +28,15 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=539
+NormalPos.top=32
+NormalPos.right=2556
+NormalPos.bottom=948
 Class=LaTeXView
 Document=CHANGES
 
 [Frame1_View0,0]
 TopLine=0
-Cursor=215
+Cursor=883
 
 [Frame2]
 Flags=0
@@ -46,15 +46,15 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=539
+NormalPos.top=32
+NormalPos.right=2556
+NormalPos.bottom=948
 Class=LaTeXView
 Document=classicthesis-config.tex
 
 [Frame2_View0,0]
-TopLine=36
-Cursor=3581
+TopLine=87
+Cursor=3526
 
 [Frame3]
 Flags=0
@@ -64,15 +64,15 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=539
+NormalPos.top=32
+NormalPos.right=2556
+NormalPos.bottom=948
 Class=LaTeXView
 Document=ClassicThesis.tex
 
 [Frame3_View0,0]
-TopLine=47
-Cursor=2542
+TopLine=23
+Cursor=2110
 
 [Frame4]
 Flags=0
@@ -82,9 +82,9 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=539
+NormalPos.top=32
+NormalPos.right=2556
+NormalPos.bottom=948
 Class=LaTeXView
 Document=Chapters\Chapter01.tex
 
@@ -100,9 +100,9 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=539
+NormalPos.top=32
+NormalPos.right=2556
+NormalPos.bottom=948
 Class=LaTeXView
 Document=Chapters\Chapter0A.tex
 
@@ -118,35 +118,17 @@ MinPos.y=-1
 MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=539
+NormalPos.top=32
+NormalPos.right=2556
+NormalPos.bottom=948
 Class=LaTeXView
 Document=classicthesis.sty
 
 [Frame6_View0,0]
-TopLine=12
-Cursor=1132
-
-[Frame7]
-Flags=0
-ShowCmd=1
-MinPos.x=-1
-MinPos.y=-1
-MaxPos.x=-1
-MaxPos.y=-1
-NormalPos.left=4
-NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=539
-Class=LaTeXView
-Document=FrontBackmatter\Bibliography.tex
-
-[Frame7_View0,0]
-TopLine=0
-Cursor=591
+TopLine=422
+Cursor=21114
 
 [SessionInfo]
-FrameCount=8
+FrameCount=7
 ActiveFrame=6
 

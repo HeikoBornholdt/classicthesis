@@ -1,7 +1,7 @@
 % ********************************************************************
 % classicthesis.sty
 %
-% Copyright (C) 2019 André Miede and Ivo Pletikosić
+% Copyright (C) 2022 André Miede and Ivo Pletikosić
 %
 % If you like the style then I would appreciate a postcard. My address
 % can be found in the file ClassicThesis.pdf. A collection of the
@@ -32,7 +32,7 @@
 %
 % ********************************************************************
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesPackage{classicthesis}[2019/09/01 v4.7b Typographic style for a classic-looking thesis]
+\ProvidesPackage{classicthesis}[2022/02/27 v4.7b Typographic style for a classic-looking thesis]
 \providecommand{\classicthesis}{classicthesis v4.7b}
 % Removed due to hint by David Carlisle and Ulrike Fischer
 % \PassOptionsToPackage{latest}{latexrelease} % replacement for fixltx2e,
@@ -66,7 +66,7 @@
 \DeclareBoolOption[true]{beramono} % toggle a nice monospaced font (w/ bold) + pre-installed
 \DeclareBoolOption{minionpro} % OBSOLETE - removed; setup for minion pro font; use minion pro small caps as well
 \DeclareBoolOption[true]{palatino} % default is Palatino/Paladio/TeX Gyre Pagella font, use this switch to skip selection
-\DeclareStringOption[classicthesis]{style} % classicthesis, arsclassica, or linedheaders
+\DeclareStringOption[classicthesis]{style} % classicthesis, arsclassica, linedheaders, plain
 \DeclareBoolOption{minionprospacing} % OBSOLETE; use minion pro's textssc for letter spacing
 \DeclareBoolOption{pdfspacing} % OBSOLETE; use pdftex for letterspacing (via microtype)
 
@@ -134,6 +134,12 @@
 \provideboolean{ct@linedheaders}
 \ifthenelse{\equal{\ct@style}{linedheaders}}%
     {\setboolean{ct@linedheaders}{true}}{\setboolean{ct@linedheaders}{false}}
+
+% use plain vanilla style
+\provideboolean{ct@plain}
+\ifthenelse{\equal{\ct@style}{plain}}%
+    {\setboolean{ct@plain}{true}}{\setboolean{ct@plain}{false}}
+
 
 % ********************************************************************
 % PDF and XeLaTeX Stuff

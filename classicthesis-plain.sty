@@ -1,8 +1,6 @@
 %************************************************************
-% classicthesis-linedheaders.sty
-% Integrated into classicthesis with permission and adapted
-% by André Miede and Ivo Pletikosić
-% 2019
+% classicthesis-plain.sty
+% --> to be loaded via option in classicthesis.sty
 %************************************************************
 
 \NeedsTeXFormat{LaTeX2e}
@@ -10,7 +8,7 @@
 
 \ifdefined\classicthesis\else\RequirePackage{classicthesis}\fi
 
-% Plain vanille chapters, looking like sections, but with line
+% Plain vanilla chapters, looking like sections, but with line
 \titleformat{\chapter}[block]
   {\relax}{\thechapter}{1em}
   {\raggedright\spacedlowsmallcaps}[\normalsize\vspace*{.8\baselineskip}\titlerule]%
