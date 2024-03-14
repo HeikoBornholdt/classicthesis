@@ -449,7 +449,7 @@
     \renewcommand{\cftpartaftersnum}{}%
     \renewcommand{\cftpartaftersnumb}{\spacedlowsmallcaps}%
     \setlength{\cftpartnumwidth}{\cftchapnumwidth}
-    \renewcommand{\cftpartfont}{\color{CTtitle}\normalfont}%
+    \renewcommand{\cftpartfont}{\color{CTtitle}\scshape}%
     \cftpagenumbersoff{part}
     \renewcommand{\cftpartpagefont}{\normalfont}%
     \ifthenelse{\boolean{ct@dottedtoc}}{\relax}%
@@ -467,7 +467,7 @@
     {%
         \renewcommand{\cftchappresnum}{\spacedlowsmallcaps}%
         \renewcommand{\cftchapaftersnumb}{\spacedlowsmallcaps}%
-        \renewcommand{\cftchapfont}{\normalfont}%
+        \renewcommand{\cftchapfont}{\scshape}%
         \renewcommand{\cftchappagefont}{\normalfont}%
         \ifthenelse{\boolean{ct@dottedtoc}}{\relax}%
           {%
