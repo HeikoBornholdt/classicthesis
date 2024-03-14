@@ -393,13 +393,13 @@
 }
 % sections \FloatBarrier
 \titleformat{\section}
-    {\relax}{\textsc{\MakeTextLowercase{\thesection}}}{1em}{\spacedlowsmallcaps}
+    {\relax}{\llap{\textsc{\MakeTextLowercase{\thesection}}\hspace*{0.8em}}}{0em}{\spacedlowsmallcaps}
 % subsections
 \titleformat{\subsection}
-    {\relax}{\textsc{\MakeTextLowercase{\thesubsection}}}{1em}{\normalsize\itshape}
+    {\relax}{\llap{\textsc{\MakeTextLowercase{\thesubsection}}\hspace*{0.8em}}}{0em}{\normalsize\itshape}
 % subsubsections
 \titleformat{\subsubsection}
-    {\relax}{\textsc{\MakeTextLowercase{\thesubsubsection}}}{1em}{\normalsize\itshape}
+    {\relax}{\llap{\textsc{\MakeTextLowercase{\thesubsubsection}}\hspace*{0.8em}}}{0em}{\normalsize\itshape}
 % paragraphs
 \titleformat{\paragraph}[runin]
     {\normalfont\normalsize}{\theparagraph}{0pt}{\spacedlowsmallcaps}
