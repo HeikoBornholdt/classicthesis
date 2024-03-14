@@ -157,6 +157,8 @@
 \definecolor{webgreen}{rgb}{0,0.5,0}
 \definecolor{webbrown}{rgb}{0.6,0,0}
 
+\definecolor{ATchapter}{rgb}{0.4,0.4,0.4}
+
 % ********************************************************************
 % Font Stuff
 % ********************************************************************
@@ -383,11 +385,11 @@
 {% lines above and below, number right
     \titleformat{\chapter}[display]%
     {\relax}{\raggedleft{\color{CTsemi}\chapterNumber\thechapter} \\ }{0pt}%
-    {\titlerule\vspace*{.9\baselineskip}\raggedright\spacedallcaps}[\normalsize\vspace*{.8\baselineskip}\titlerule]%
+    {\titlerule\vspace*{.9\baselineskip}\huge\rmfamily\itshape\color{HBchapter}}[\normalsize\vspace*{.5\baselineskip}\titlerule]%
 }{% something like Bringhurst
     \titleformat{\chapter}[display]%
     {\relax}{\mbox{}\oldmarginpar{\vspace*{-3\baselineskip}\color{CTsemi}\chapterNumber\thechapter}}{0pt}%
-    {\raggedright\spacedallcaps}[\normalsize\vspace*{.8\baselineskip}\titlerule]%
+    {\huge\rmfamily\itshape\color{ATchapter}}[\normalsize\vspace*{.5\baselineskip}\titlerule]%
 }
 % sections \FloatBarrier
 \titleformat{\section}
