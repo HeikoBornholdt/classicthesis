@@ -268,5 +268,26 @@
 % Used to fix these:
 % https://bitbucket.org/amiede/classicthesis/issues/139/italics-in-pallatino-capitals-chapter
 % https://bitbucket.org/amiede/classicthesis/issues/45/problema-testatine-su-classicthesis-style
+
+% ********************************************************************
+% \newthought and \newthoughtpar
+% adapted from https://github.com/pfasante/phd_thesis
+% ********************************************************************
+\RequirePackage{amssymb}
+\newskip\newthoughtskipamount
+\newthoughtskipamount=1.0\baselineskip plus 0.5ex minus 0.2ex
+\providecommand\newthoughtbreak{\par\ifdim\lastskip<\newthoughtskipamount
+  \removelastskip\penalty-100\newthoughtskip\fi}
+
+\newcommand{\newthoughtskip}{\vspace\newthoughtskipamount}
+\providecommand\newthought[1]{%
+    \nopagebreak
+    \newthoughtbreak
+    \noindent%
+    {\llap{\color{black!40}\scriptsize\raisebox{1pt}{$\blacktriangleright$}\quad}}%
+    \textsc{#1}%
+}
+\providecommand\newthoughtpar[1]{\nopagebreak\newthought{#1}\par\nopagebreak\noindent\ignorespaces}
+
 % ********************************************************************
 % ****************************************************************************************************
