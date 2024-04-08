@@ -273,7 +273,15 @@
 % \newthought and \newthoughtpar
 % adapted from https://github.com/pfasante/phd_thesis
 % ********************************************************************
-\RequirePackage{amssymb}
+\ifxetex
+  % noop
+\else
+  \ifluatex
+    % noop
+  \else
+    \RequirePackage{amssymb}
+  \fi
+\fi
 \newskip\newthoughtskipamount
 \newthoughtskipamount=1.0\baselineskip plus 0.5ex minus 0.2ex
 \providecommand\newthoughtbreak{\par\ifdim\lastskip<\newthoughtskipamount
